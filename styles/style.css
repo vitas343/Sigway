@@ -1,0 +1,66 @@
+@import './utils.css';
+
+.kickscooter__vector {
+    transition: all .2s ease-in;
+    position: relative;
+    &::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: url(../assets/images/kickscooter/kick_ellips_start_nohover.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    &::after {
+        content: "";
+        width: 14px;
+        height: 14px;
+        background: url(../assets/images/kickscooter/kick_ellips_nohover.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &:hover {
+        &::before {
+            background: url(../assets/images/kickscooter/kick_ellips_start_hover.png);
+            background-repeat: no-repeat;
+        }
+        &::after {
+            background: url(../assets/images/kickscooter/kick_ellips_hover.png);
+            background-repeat: no-repeat;
+            width: 26px;
+            height: 26px;
+        }
+        svg {
+            path {
+                stroke: #007BCD;
+            }
+        }
+    }
+}
+
+.kickscooter__throttle {
+    & .kickscooter__vector {
+        width: 250px;
+        height: 108px;
+    }
+}
+
+.smartphone__protection {
+        transition: all .2s ease-in;
+        &:hover {
+            fill: #007BCD;
+        }
+}
+/* TODO: icon stroke fill */
+.smartphone__protection:hover path.smartphone__protection__icon {
+        stroke: #fff !important;    
+}
+@import './arrow.css';

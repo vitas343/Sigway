@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sigway</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
@@ -129,8 +130,8 @@
     </section>
     <section class="second_screen">
         <div class="container">
-            <div class="second_screen__top">
-                <div class="second_screen__left">
+            <div class="seagway_promo">
+                <div class="seagway_promo__left">
                     <h1>SEGWAY
                         Ninebot
                         Kickscooter 
@@ -163,9 +164,9 @@
                         <img src="./assets/images/payments.png" alt="">
                     </div>
                 </div>
-                <div class="second_screen__right">
-                    <div class="second_screen__slider">
-                        <div class="second_screen__slider__slides">
+                <div class="seagway_promo__right">
+                    <div class="seagway_promo__slider">
+                        <div class="seagway_promo__slider__slides">
                             <div><img src="" alt=""></div>
                             <div><img src="" alt=""></div>
                             <div><img src="" alt=""></div>
@@ -173,7 +174,7 @@
                             <div><img src="" alt=""></div>
                             <div><img src="" alt=""></div>
                         </div>
-                        <ul class="second_screen__slider__nav">
+                        <ul class="seagway_promo__slider__nav">
                             <li><a href=""></a></li>
                             <li><a href=""></a></li>
                             <li><a href=""></a></li>
@@ -184,47 +185,70 @@
                     </div>
                 </div>
             </div>
-           <div class="container">
+
             <div class="second_screen__middle">
-            <a href="">Up to 40 miles per charge</a>
-            <a href="">After Sales Support</a>
-            <a href="">Basic 1 year 
-                warranty</a>
-            <a href="">Delivery within 1 business day</a>
-            <h3>Up to 40 miles of range 
-                on a single charge</h3>
-                <p>With a range of up to 40 miles, the longest range on the market, and a 20˚uphill climbing angle, the KickScooter MAX allows you to ride from San Francisco Bay Area to Palo Alto on a single charge.</p>
-                <img src="./assets/images/40miles.jpg" alt="">
-                <div>
-                    <h3>One year
-                        manufacturer's warranty</h3>
-                        <p>The basic warranty is 1 year. 
-                            You can also extend the warranty up to 4 years.</p>
-                            <img src="./assets/images/1year.jpg" alt="">
+                <div class="second_screen__btns">
+                    <a href="">Up to 40 miles per charge</a>
+                    <a href="">After Sales Support</a>
+                    <a href="">Basic 1 year 
+                        warranty</a>
+                    <a href="">Delivery within 1 business day</a>
                 </div>
-                <div>
-                    <h3>After Sales
-                        Support</h3>
-                        <p>If you have any difficulties with your kickscooter, our specialists will contact you within 15 minutes</p>
-                        <img src="./assets/images/repair.jpg" alt="">
+                <div class="second_screen__info">
+                    <div>
+                        <h3>Up to 40 miles of range 
+                            on a single charge</h3>
+                            <p>With a range of up to 40 miles, the longest range on the market, and a 20˚uphill climbing angle, the KickScooter MAX allows you to ride from San Francisco Bay Area to Palo Alto on a single charge.</p>
+                            <img src="./assets/images/40miles.jpg" alt="">
+                    </div>
+                   
+                    <div>
+                        <h3>One year
+                            manufacturer's warranty</h3>
+                            <p>The basic warranty is 1 year. 
+                                You can also extend the warranty up to 4 years.</p>
+                                <img src="./assets/images/1year.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>After Sales
+                            Support</h3>
+                            <p>If you have any difficulties with your kickscooter, our specialists will contact you within 15 minutes</p>
+                            <img src="./assets/images/repair.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>
+                            WE ARE IN LOS ANGELES, CA</h3>
+                            <p>Free California 1 day shipping.
+                                US Free Shipping 3-5 Days</p>
+                                <img src="./assets/images/country.jpg" alt="">
+                    </div>
                 </div>
-                <div>
-                    <h3>
-                        WE ARE IN LOS ANGELES, CA</h3>
-                        <p>Free California 1 day shipping.
-                            US Free Shipping 3-5 Days</p>
-                            <img src="./assets/images/country.jpg" alt="">
+            </div>
+            <div class="second_screen__bottom">
+                <div class="second_screen__left">
+                    <h2>Packing List</h2>
+                    <video src="https://www.youtube.com/watch?v=a5GzRHONf8A" type="video/mp4" style="width: 250px; height: 250px;">
+                        <button id="videoPlay">
+                            <svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_125_594)">
+                                <path d="M60.7508 39.5657L31.4175 19.5657C31.0082 19.2883 30.4802 19.2577 30.0428 19.4883C29.6068 19.719 29.3335 20.1723 29.3335 20.667V60.667C29.3335 61.1617 29.6068 61.615 30.0442 61.8457C30.2388 61.9497 30.4535 62.0003 30.6668 62.0003C30.9295 62.0003 31.1922 61.9217 31.4175 61.7683L60.7508 41.7683C61.1148 41.5203 61.3335 41.1083 61.3335 40.667C61.3335 40.2257 61.1148 39.8137 60.7508 39.5657ZM32.0002 58.143V23.191L57.6335 40.667L32.0002 58.143Z" fill="white"/>
+                                <path d="M40 0.667114C17.944 0.667114 0 18.6111 0 40.6671C0 62.7231 17.944 80.6671 40 80.6671C62.056 80.6671 80 62.7231 80 40.6671C80 18.6111 62.056 0.667114 40 0.667114ZM40 78.0005C19.4147 78.0005 2.66667 61.2524 2.66667 40.6671C2.66667 20.0818 19.4147 3.33378 40 3.33378C60.5853 3.33378 77.3333 20.0818 77.3333 40.6671C77.3333 61.2524 60.5853 78.0005 40 78.0005Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_125_594">
+                                <rect width="80" height="80" fill="white" transform="translate(0 0.667114)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                        </button>
+                    </video>
                 </div>
+                <div class="second_screen__right">
+                    <img src="./assets/images/tools.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="second_screen__right">
-            <img src="./assets/images/tools.jpg" alt="">
-        </div>
-        <div class="second_screen__left">
-<h2>Packing List</h2>
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/aSxDLJKUGU8" title="The Alibaba Segway ✨GT2✨ vs G30P,  the Segway Engine Speaker and some California Cruising :)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>">
-        </div>
-    </div> 
-        </div>       
     </section>
     <section>
         <h2>Accesories</h2>
@@ -307,41 +331,76 @@
         </div>
         <a href="" class="button">SEE MORE</a>
     </section>
-    <section>
-        <img src="./assets/therdpages/fone.jpg" alt="">
-        <h2>IMPRESSIVE FEATURES</h2>
-        <ul>
-        <li><img src="./assets/therdpages/specifications/spec1.png" alt=""><h3>10”</h3><p>Pneumatic Tires</p></li>
-        <li><img src="./assets/therdpages/specifications/spec2.png" alt=""><h3>LED</h3><p>Front LED Lights</p></li>
-        <li><img src="./assets/therdpages/specifications/spec3.png" alt=""><h3>18.6 mph</h3><p>Max Speed</p></li>
-        <li><img src="./assets/therdpages/specifications/spec4.png" alt=""><h3>40.4 Miles</h3><p>Max Range</p></li>
-        <li><img src="./assets/therdpages/specifications/spec5.png" alt=""><h3>20%</h3><p>Hill Grade</p></li>
-        <li><img src="./assets/therdpages/specifications/spec6.png" alt=""><h3>IPX5</h3><p>Water-Resistant</p></li>
-        <li><img src="./assets/therdpages/specifications/spec7.png" alt=""><h3>6H</h3><p>Fast Cherging</p></li>
-        <li><img src="./assets/therdpages/specifications/scpe8.png" alt=""><h3>551Wh</h3><p>Battery</p></li>
-    </ul>
+    <section class="features">
+        <div class="container">
+            <img src="./assets/therdpages/fone.jpg" alt="">
+            <h2 class="features__heading">IMPRESSIVE FEATURES</h2>
+            <ul class="features__list">
+                <li><img src="./assets/therdpages/specifications/spec1.png" alt=""><h3>10”</h3><p>Pneumatic Tires</p></li>
+                <li><img src="./assets/therdpages/specifications/spec2.png" alt=""><h3>LED</h3><p>Front LED Lights</p></li>
+                <li><img src="./assets/therdpages/specifications/spec3.png" alt=""><h3>18.6 mph</h3><p>Max Speed</p></li>
+                <li><img src="./assets/therdpages/specifications/spec4.png" alt=""><h3>40.4 Miles</h3><p>Max Range</p></li>
+                <li><img src="./assets/therdpages/specifications/spec5.png" alt=""><h3>20%</h3><p>Hill Grade</p></li>
+                <li><img src="./assets/therdpages/specifications/spec6.png" alt=""><h3>IPX5</h3><p>Water-Resistant</p></li>
+                <li><img src="./assets/therdpages/specifications/spec7.png" alt=""><h3>6H</h3><p>Fast Cherging</p></li>
+                <li><img src="./assets/therdpages/specifications/scpe8.png" alt=""><h3>551Wh</h3><p>Battery</p></li>
+            </ul>
+        </div>
     </section>
-    <section>
+
+    <section class="kickscooter kickscooter--desktop">
+        <div class="container">
+            <div class="kickscooter__left">
+                <ul>
+                    <li class="kickscooter__throttle">
+                        Electronic throttle
+                        <div class="kickscooter__vector">
+                            <svg width="252" height="110" viewBox="0 0 252 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.5" d="M251 1H139L1 109" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="kickscooter__middle">
+                <img src="./assets/images/seagways/kickscooter.png" alt="kickscooter">
+            </div>
+            <div class="kickscooter__right">
+                <ul>
+                    <li>
+                        Dashboard and power button
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="kickscooter kickscooter--mob">
+        <div class="container">
+
+        </div>
+    </section>
+
+
+    <section class="fifth-screen">
         <div class="container">
             <div class="fifth_screen_left">
                 <img src="./assets/therdpages/battery.jpg" alt="">
-                <h2>Smart battery
-                    Management system
-                    (Smart-BMS)</h2>
-                    <p>The Smart-BMS closely monitors the battery status with multiple protection mechanisms to ensure the battery durability</p>
-                
+                <div>
+                    <h2>Smart battery
+                        Management system
+                        (Smart-BMS)</h2>
+                        <p>The Smart-BMS closely monitors the battery status with multiple protection mechanisms to ensure the battery durability</p>
+                </div>
             </div>
         </div>         
     </section>
-    <section>
+    <section class="sixth_screen">
         <div class="container">
-            <div class="sixth_screen_right">
+            <div >
             <img src="./assets/therdpages/break.jpg" alt="">
-            <h2>Dual Braking 
-                System</h2>
-                <p>Simultaneous mechanical front drum brake and regenerative electric back brake provide both stability and steerability.
-
-                    *IPX5 water resistance</p>
+            <h2>Dual Braking System</h2>
+                <p>Simultaneous mechanical front drum brake and regenerative electric back brake provide both stability and steerability.</p>
+                <p>*IPX5 water resistance</p>
             </div>
         </div>
     </section>
@@ -384,9 +443,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="tenth_screen">
         <div class="container">
-            <div class="tenth_screen_left">
+            <div >
                 <img src="./assets/therdpages/modes.jpg" alt="">
                 <h2>3 Riding Modes
                 </h2>
@@ -395,12 +454,12 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="manual">
         <div class="container">
-            <div class="eleventh_screen_left">
+            <div class="manual_left">
                 <img src="./assets/therdpages/manual.jpg" alt="">
             </div>
-            <div>
+            <div class="manual_right">
                 <h2>DOWNLOAD MANUAL</h2>
                 <ul>
                 <li>
@@ -419,28 +478,101 @@
                         properly</p>
                 </li>
             </ul>
-            </div class="eleventh_screen_right">
-            <a>
-                <button type="submit">DOWNLOAD MANUAL
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_406_12774)">
-                    <path d="M24.1445 6.76548L17.7754 0.147363C17.6848 0.0532227 17.5597 0 17.429 0H7.93633C6.87397 0 6.00967 0.863965 6.00967 1.92588V8.65386H2.16265C1.36782 8.65386 0.721191 9.30029 0.721191 10.0949V17.309C0.721191 18.1036 1.36782 18.75 2.16265 18.75H6.00967V23.0775C6.00967 24.1376 6.87397 25 7.93633 25H22.3522C23.4146 25 24.2789 24.138 24.2789 23.0786V7.09888C24.2789 6.97456 24.2307 6.85508 24.1445 6.76548ZM17.5481 1.2979L22.7766 6.73076H17.5481V1.2979ZM2.16265 17.7885C1.898 17.7885 1.68276 17.5734 1.68276 17.309V10.0949C1.68276 9.83052 1.89805 9.61538 2.16265 9.61538H15.1452C15.4098 9.61538 15.625 9.83052 15.625 10.0949V17.309C15.625 17.5734 15.4098 17.7885 15.1452 17.7885H2.16265ZM23.3173 23.0786C23.3173 23.6079 22.8844 24.0385 22.3522 24.0385H7.93633C7.40415 24.0385 6.97119 23.6074 6.97119 23.0775V18.75H15.1452C15.94 18.75 16.5866 18.1036 16.5866 17.309V10.0949C16.5866 9.30029 15.94 8.65386 15.1452 8.65386H6.97119V1.92588C6.97119 1.39409 7.40415 0.961523 7.93633 0.961523H16.5866V7.21152C16.5866 7.47705 16.8019 7.69229 17.0673 7.69229H23.3173V23.0786Z" fill="white"/>
-                    <path d="M6.46899 12.2016C6.30937 11.994 6.11123 11.8593 5.87461 11.7973C5.7206 11.756 5.39009 11.7354 4.88301 11.7354H3.54492V15.8651H4.37876V14.3073H4.92246C5.29995 14.3073 5.58823 14.2875 5.7873 14.2481C5.93379 14.2162 6.07793 14.1509 6.21972 14.0523C6.36152 13.9537 6.47842 13.818 6.57046 13.6453C6.6625 13.4725 6.70849 13.2593 6.70849 13.0058C6.70845 12.6771 6.62861 12.4091 6.46899 12.2016ZM5.75488 13.3382C5.69199 13.4303 5.60513 13.4978 5.49429 13.5411C5.38345 13.5843 5.16377 13.6059 4.83511 13.6059H4.37876V12.434H4.78159C5.08208 12.434 5.28208 12.4434 5.38159 12.4622C5.5168 12.4866 5.62856 12.5476 5.7168 12.6453C5.80508 12.7429 5.84922 12.8669 5.84922 13.0171C5.84927 13.1392 5.81777 13.2462 5.75488 13.3382Z" fill="white"/>
-                    <path d="M10.717 12.8636C10.6269 12.5997 10.4954 12.3767 10.3227 12.1945C10.1499 12.0124 9.94233 11.8856 9.7001 11.8142C9.51982 11.7616 9.25781 11.7354 8.91416 11.7354H7.39014V15.8651H8.95923C9.26724 15.8651 9.51323 15.836 9.69727 15.7777C9.94331 15.6989 10.1386 15.589 10.2832 15.4481C10.4748 15.2622 10.6222 15.019 10.7255 14.7186C10.81 14.4725 10.8522 14.1795 10.8522 13.8396C10.8522 13.4528 10.8072 13.1274 10.717 12.8636ZM9.90571 14.5594C9.84937 14.7444 9.77661 14.8773 9.6874 14.958C9.59819 15.0388 9.48599 15.096 9.35078 15.1298C9.24751 15.1561 9.07939 15.1693 8.84653 15.1693H8.22398V12.434H8.59863C8.93853 12.434 9.16675 12.4471 9.28315 12.4734C9.43901 12.5072 9.56768 12.572 9.66909 12.6678C9.77051 12.7636 9.84937 12.8969 9.90571 13.0678C9.96206 13.2387 9.99023 13.4838 9.99023 13.8031C9.99023 14.1223 9.96206 14.3744 9.90571 14.5594Z" fill="white"/>
-                    <path d="M14.396 12.434V11.7354H11.5649V15.8651H12.3988V14.1101H14.1228V13.4115H12.3988V12.434H14.396Z" fill="white"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0_406_12774">
-                    <rect width="25" height="25" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
-                </button>
+            </div>
+            <a 
+                href=""
+                download=""
+            >
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_406_12774)">
+                <path d="M24.1445 6.76548L17.7754 0.147363C17.6848 0.0532227 17.5597 0 17.429 0H7.93633C6.87397 0 6.00967 0.863965 6.00967 1.92588V8.65386H2.16265C1.36782 8.65386 0.721191 9.30029 0.721191 10.0949V17.309C0.721191 18.1036 1.36782 18.75 2.16265 18.75H6.00967V23.0775C6.00967 24.1376 6.87397 25 7.93633 25H22.3522C23.4146 25 24.2789 24.138 24.2789 23.0786V7.09888C24.2789 6.97456 24.2307 6.85508 24.1445 6.76548ZM17.5481 1.2979L22.7766 6.73076H17.5481V1.2979ZM2.16265 17.7885C1.898 17.7885 1.68276 17.5734 1.68276 17.309V10.0949C1.68276 9.83052 1.89805 9.61538 2.16265 9.61538H15.1452C15.4098 9.61538 15.625 9.83052 15.625 10.0949V17.309C15.625 17.5734 15.4098 17.7885 15.1452 17.7885H2.16265ZM23.3173 23.0786C23.3173 23.6079 22.8844 24.0385 22.3522 24.0385H7.93633C7.40415 24.0385 6.97119 23.6074 6.97119 23.0775V18.75H15.1452C15.94 18.75 16.5866 18.1036 16.5866 17.309V10.0949C16.5866 9.30029 15.94 8.65386 15.1452 8.65386H6.97119V1.92588C6.97119 1.39409 7.40415 0.961523 7.93633 0.961523H16.5866V7.21152C16.5866 7.47705 16.8019 7.69229 17.0673 7.69229H23.3173V23.0786Z" fill="white"/>
+                <path d="M6.46899 12.2016C6.30937 11.994 6.11123 11.8593 5.87461 11.7973C5.7206 11.756 5.39009 11.7354 4.88301 11.7354H3.54492V15.8651H4.37876V14.3073H4.92246C5.29995 14.3073 5.58823 14.2875 5.7873 14.2481C5.93379 14.2162 6.07793 14.1509 6.21972 14.0523C6.36152 13.9537 6.47842 13.818 6.57046 13.6453C6.6625 13.4725 6.70849 13.2593 6.70849 13.0058C6.70845 12.6771 6.62861 12.4091 6.46899 12.2016ZM5.75488 13.3382C5.69199 13.4303 5.60513 13.4978 5.49429 13.5411C5.38345 13.5843 5.16377 13.6059 4.83511 13.6059H4.37876V12.434H4.78159C5.08208 12.434 5.28208 12.4434 5.38159 12.4622C5.5168 12.4866 5.62856 12.5476 5.7168 12.6453C5.80508 12.7429 5.84922 12.8669 5.84922 13.0171C5.84927 13.1392 5.81777 13.2462 5.75488 13.3382Z" fill="white"/>
+                <path d="M10.717 12.8636C10.6269 12.5997 10.4954 12.3767 10.3227 12.1945C10.1499 12.0124 9.94233 11.8856 9.7001 11.8142C9.51982 11.7616 9.25781 11.7354 8.91416 11.7354H7.39014V15.8651H8.95923C9.26724 15.8651 9.51323 15.836 9.69727 15.7777C9.94331 15.6989 10.1386 15.589 10.2832 15.4481C10.4748 15.2622 10.6222 15.019 10.7255 14.7186C10.81 14.4725 10.8522 14.1795 10.8522 13.8396C10.8522 13.4528 10.8072 13.1274 10.717 12.8636ZM9.90571 14.5594C9.84937 14.7444 9.77661 14.8773 9.6874 14.958C9.59819 15.0388 9.48599 15.096 9.35078 15.1298C9.24751 15.1561 9.07939 15.1693 8.84653 15.1693H8.22398V12.434H8.59863C8.93853 12.434 9.16675 12.4471 9.28315 12.4734C9.43901 12.5072 9.56768 12.572 9.66909 12.6678C9.77051 12.7636 9.84937 12.8969 9.90571 13.0678C9.96206 13.2387 9.99023 13.4838 9.99023 13.8031C9.99023 14.1223 9.96206 14.3744 9.90571 14.5594Z" fill="white"/>
+                <path d="M14.396 12.434V11.7354H11.5649V15.8651H12.3988V14.1101H14.1228V13.4115H12.3988V12.434H14.396Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_406_12774">
+                <rect width="25" height="25" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg> DOWNLOAD MANUAL
             </a>
         </div>
     </section>
-    <section></section>
-    <section></section>
+    <section class="reviews">
+        <div class="container">
+            <h2>Reviews</h2>
+            <div class="reviews__slider">
+                <ul>
+                    <li><a href=""><svg width="24" height="42" viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.9002 23.1002L21.1002 41.2002L23.2002 39.1002L5.10019 21.0002L23.2002 2.80019L21.1002 0.700195L2.9002 18.9002L0.800196 21.0002L2.9002 23.1002Z" fill="#009EFF"/>
+                        </svg>
+                        </a></li>
+                    <li><a   href=""><svg  class="img-right" width="24" height="42" viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.9002 23.1002L21.1002 41.2002L23.2002 39.1002L5.10019 21.0002L23.2002 2.80019L21.1002 0.700195L2.9002 18.9002L0.800196 21.0002L2.9002 23.1002Z" fill="#009EFF"/>
+                    </svg>
+                        </a></li>
+                </ul>
+                <div class="reviews__slides">
+                    <div><img src="./assets/images/reviews/rev1.jpg" alt=""></div>
+                    <div><img src="./assets/images/reviews/rev1.jpg" alt=""></div>
+                    <div><img src="./assets/images/reviews/rev1.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="smartphone">
+        <div class="container">
+           <div class="smartphone__top">
+            <h2>Control from your smartphone</h2>
+            <p>You can easily control your Segway electric scooter with your smartphone via Bluetooth. Not being the key to the kickscooter, it will give a signal in case of an attempt to steal. Check the current speed, data on the status of the device's systems or set the speed limit with a few touches.
+                And the skating training program is indispensable for beginners.</p>
+           </div>
+           <div class="smartphone__bottom">
+                <div class="smartphone__bottom__left">
+                    <ul>
+                        <li>
+                            <svg class="smartphone__protection" width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_20532_2142)">
+                                <path d="M41.2476 46.9984H42.748C42.748 43.2754 45.7769 40.2465 49.4999 40.2465V38.7461C44.9498 38.7461 41.2476 42.4483 41.2476 46.9984Z" fill="#CCCCCC"/>
+                                <path d="M62.5041 59.7527H61.7539V46.9983C61.7539 40.2424 56.2566 34.7451 49.4999 34.7451C42.7432 34.7451 37.2459 40.2424 37.2459 46.9983V59.7519H36.4957C34.9792 59.7519 33.7446 60.9857 33.7446 62.503V68.2549H65.2543V62.503C65.2543 60.9865 64.0205 59.7527 62.5041 59.7527ZM38.7463 46.9983C38.7463 41.0687 43.5702 36.2455 49.4999 36.2455C55.4295 36.2455 60.2535 41.0695 60.2535 46.9983V59.7519H38.7463V46.9983ZM63.7539 63.254H56.2014V64.7544H63.7539V66.7552H35.2459V64.7544H43.298V63.254H35.2459V62.5038C35.2459 61.8144 35.8063 61.2532 36.4965 61.2532H62.5041C63.1935 61.2532 63.7547 61.8136 63.7547 62.5038V63.254H63.7539Z" fill="#CCCCCC"/>
+                                <path d="M69.3929 39.1816L68.332 40.2425C73.8894 45.8006 73.8894 54.8432 68.332 60.4014L69.3929 61.4622C75.5355 55.3188 75.5355 45.3243 69.3929 39.1816Z" fill="#CCCCCC"/>
+                                <path d="M66.4456 42.1279L65.3848 43.1888C69.3176 47.1216 69.3176 53.5204 65.3848 57.4532L66.4456 58.5141C70.9629 53.9968 70.9629 46.646 66.4456 42.1279Z" fill="#CCCCCC"/>
+                                <path d="M30.6678 40.2423L29.607 39.1807C23.4643 45.3233 23.4643 55.3186 29.607 61.4613L30.6678 60.4004C25.1105 54.843 25.1105 45.7997 30.6678 40.2423Z" fill="#CCCCCC"/>
+                                <path d="M33.6148 43.1896L32.554 42.1279C28.0367 46.6452 28.0367 53.9968 32.554 58.5141L33.6148 57.4532C29.682 53.5212 29.682 47.1216 33.6148 43.1896Z" fill="#CCCCCC"/>
+                                <path d="M51.7505 57.5731V54.0198C52.6609 53.3345 53.251 52.2456 53.251 51.0206C53.251 48.9525 51.568 47.2695 49.4999 47.2695C47.4318 47.2695 45.7488 48.9525 45.7488 51.0206C45.7488 52.2448 46.3389 53.3345 47.2493 54.0198V57.5731H45.499V59.0736H53.5016V57.5731H51.7505ZM50.2501 57.5731H48.7497V54.6972C48.9923 54.7468 49.2429 54.7725 49.4999 54.7725C49.7569 54.7725 50.0075 54.746 50.2501 54.6972V57.5731ZM49.4999 53.272C48.2589 53.272 47.2493 52.2624 47.2493 51.0214C47.2493 49.7804 48.2589 48.7708 49.4999 48.7708C50.7409 48.7708 51.7505 49.7804 51.7505 51.0214C51.7505 52.2624 50.7409 53.272 49.4999 53.272Z" fill="#CCCCCC"/>
+                                <path d="M46.9994 63.2539H45.499V64.7543H46.9994V63.2539Z" fill="#CCCCCC"/>
+                                <path d="M54.0014 63.2539H52.501V64.7543H54.0014V63.2539Z" fill="#CCCCCC"/>
+                                <path d="M50.5009 63.2539H49.0005V64.7543H50.5009V63.2539Z" fill="#CCCCCC"/>
+                                </g>
+                                <path class="smartphone__protection__icon" d="M72.9227 7.56475L96.8453 49L72.9226 90.4353L25.0774 90.4353L1.15471 49L25.0774 7.56475L72.9227 7.56475Z" stroke="#CCCCCC" stroke-width="2"/>
+                                <defs>
+                                <clipPath id="clip0_20532_2142">
+                                <rect width="49" height="33.5098" fill="white" transform="translate(25 34.7451)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="paylinks">
+                        <img src="./assets/images/smartphone/appstore.jpg" alt="">
+                        <img src="./assets/images/smartphone/googlepay.jpg" alt="">
+                    </div>
+                </div>
+                <div class="smartphone__bottom__right">
+                    <img src="./assets/images/smartphone/smartphone_icon.png" alt="">
+                    <img src="./assets//images/smartphone/smartphone-seagway-blur.png" class="display--mob" alt="">
+                </div>
+           </div>
+        </div>
+    </section>
     <section></section>
     <section></section>
     <section></section>

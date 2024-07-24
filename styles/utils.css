@@ -1,0 +1,20 @@
+@media all and (min-width: 1400px) {
+    .display--mob {
+        display: none;
+    }
+}
+@media all and (max-width: 1400px) {
+    .display--mob {
+        display: none;
+    }
+}
+@media all and (max-width: 768px) {
+    .display--mob {
+        display: none;
+    }
+}
+@media all and (max-width: 490px) {
+    .display--mob {
+        display: flex;
+    }
+}

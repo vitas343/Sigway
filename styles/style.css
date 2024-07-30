@@ -1,8 +1,15 @@
+@import './normalize.css';
+@import './fonts.css';
+@import './vars.css';
 @import './utils.css';
+@import './nav.css';
+
+
+
 
 .kickscooter__vector {
     transition: all .2s ease-in;
-    position: relative;
+    position: absolute;
     &::before {
         content: "";
         width: 10px;

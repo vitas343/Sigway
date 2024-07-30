@@ -2,19 +2,51 @@
     .display--mob {
         display: none;
     }
+    .container {
+        min-width: 1140px;
+        max-width: 1140px;
+    }
 }
 @media all and (max-width: 1400px) {
     .display--mob {
         display: none;
+    }
+    .container {
+        min-width: 80%;
+        max-width: 1140px;
     }
 }
 @media all and (max-width: 768px) {
     .display--mob {
         display: none;
     }
+    .container {
+        min-width: auto;
+        max-width: 90%;
+    }
 }
 @media all and (max-width: 490px) {
     .display--mob {
         display: flex;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+a {
+    transition: all .2s ease-in;
+    &:hover {
+        cursor: pointer
     }
 }
